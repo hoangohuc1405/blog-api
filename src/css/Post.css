@@ -1,0 +1,57 @@
+.post-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin: 0;
+}
+
+.post-status,
+.post-type {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.post-content {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-dropdown {
+    margin-left: 20px; /* Khoảng cách giữa tiêu đề và dropdown */
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.post-dropdown option {
+    padding: 8px;
+}
+
